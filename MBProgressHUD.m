@@ -737,7 +737,7 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 		// Draw background
 		CGContextSetRGBStrokeColor(context, 1.0f, 1.0f, 1.0f, 1.0f); // white
 		CGContextSetRGBFillColor(context, 1.0f, 1.0f, 1.0f, 0.1f); // translucent white
-		CGContextSetLineWidth(context, 2.0f);
+		CGContextSetLineWidth(context, 1.0f);
 		CGContextFillEllipseInRect(context, circleRect);
 		CGContextStrokeEllipseInRect(context, circleRect);
 		// Draw progress
